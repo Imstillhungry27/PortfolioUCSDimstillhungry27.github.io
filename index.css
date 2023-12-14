@@ -1,0 +1,174 @@
+
+* {
+  box-sizing: border-box;
+}
+
+p {
+  font-family: 'poppins';
+}
+
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+  padding-top: 1rem;
+  margin-top: 20px;
+}
+
+h2 {
+ text-align: center;
+}
+
+h3 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: regular;
+  padding: 1%;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-brand {
+  font-family: 'poppins';
+  font-weight:900;
+  font-size: 1.5rem;
+}
+
+.nav-item {
+  font-family: 'poppins';
+}
+
+/* homepage*/
+#Home {
+  background-color:#f4eed6;
+}
+
+div.scroll-container {
+  background-color: transparent;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 2px;
+  margin-top: 100px;
+}
+
+div.scroll-container img {
+  padding: 2px;
+}
+
+/*illustration CSS*/
+.header {
+  text-align: center;
+  padding: 32px;
+  margin-top: 75px;
+  font-family: poppins;
+}
+
+.row {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 4 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  -ms-flex: 50%; /* IE 10 */
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  padding: 50 10px;
+}
+
+/*ILLUSTRATION (photo gallery)*/
+.photo-grid {
+  padding: 10px;
+}
+
+/* Backdrops */
+#Backdrops {
+background-color: #f4dcd6;
+}
+
+.banner {
+  display: run-in;
+  padding: 1.5rem;
+  grid-template-columns: 200px 1fr;
+  gap: 2rem;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  font: 500 100%/1.5 system-ui;
+}
+img cloth {
+  max-width: 100%;
+  height: auto;
+}
+ .title-img {
+  text-align: center;
+  padding-top: 15px;
+  font-family: 'poppins';
+  font-weight: 200;
+ }
+
+ p.bgpg {
+  font-family: 'poppins';
+  margin-left: 200px;
+  margin-right:200px;
+  padding-top: 15px;
+ }
+
+/* BIO */
+
+#Bio {
+  background-color:#84B4C8;
+  color: white
+}
+.container {
+  display: grid;
+  align-items: center;
+  text-align: justify;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 5px;
+  margin-bottom: 30px;
+}
+
+.bio_pic {
+  border-radius: 75%;
+  max-width:300px;
+  max-height: 500px;
+  float:left;
+  margin-right: 50px;
+}
+
+.content {
+  padding: 30px;
+}
+
+/* Contact */
+#Contact {
+  padding: 10% 15%;
+  z-index: 10;
+  position: relative;
+  }
+  
+  .feature-box {
+    text-align: center;
+    padding: 5%;
+  }
+
+  .icon {
+    color: #e26d5c;
+    margin-bottom: 1rem;
+  }
+  
+  .icon:hover {
+    color: #8fdbf2
+  }
